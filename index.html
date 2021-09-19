@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="section-filters">
+        <div class="container-filters-mbl">
+            <div class="container-icon" id="filter">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.75577 10.414V10.2054L6.60752 10.0587L1.13505 4.64165C0.85552 4.36495 0.694336 3.97864 0.694336 3.59V1C0.694336 0.869045 0.746843 0.742412 0.841976 0.648243C0.937282 0.553903 1.06762 0.5 1.20457 0.5H17.3684C17.5054 0.5 17.6357 0.553903 17.731 0.648243C17.8261 0.742411 17.8786 0.869044 17.8786 1V3.59C17.8786 3.97864 17.7175 4.36495 17.4379 4.64165L11.9655 10.0587L11.8172 10.2054V10.414V16C11.8172 16.1866 11.7108 16.3605 11.5362 16.4471L7.49662 18.4465C7.49655 18.4465 7.49647 18.4465 7.4964 18.4466C7.41818 18.4851 7.33102 18.5033 7.24324 18.4993C7.15538 18.4953 7.07033 18.4692 6.99615 18.4237C6.922 18.3783 6.86137 18.3153 6.81952 18.2411C6.77774 18.167 6.75592 18.0839 6.75577 17.9997C6.75577 17.9996 6.75577 17.9995 6.75577 17.9994L6.75577 10.414ZM10.7967 10L10.7967 9.99927C10.7966 9.93458 10.8095 9.87038 10.8346 9.81033C10.8597 9.75027 10.8968 9.69539 10.9438 9.64899L10.5927 9.293L10.9445 9.64835L16.7129 3.93835L16.8615 3.79134L16.8612 3.58236L16.8592 1.99936L16.8585 1.5H16.3592H2.21481H1.71481V2V3.59V3.7987L1.86319 3.94547L7.62862 9.64847L7.62914 9.64899C7.67619 9.69539 7.71323 9.75027 7.73838 9.81033C7.76352 9.87038 7.77634 9.93458 7.77625 9.99927V10V16.382V17.1874L8.49804 16.8301L10.5185 15.8301L10.7967 15.6924V15.382L10.7967 10ZM8.27625 15.8241L8.05446 15.9339L8.27625 16.382H8.77625V16.1345L10.2967 15.382V10L8.27625 15.8241Z"
+                        fill="black" stroke="black" />
+                </svg>
+                <b>Filtrar</b>
+            </div>
+            <hr class="separator">
+            <div class="container-icon" id="order">
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3.87398 16H5.89446V4H8.92517L4.88422 0L0.843262 4H3.87398V16ZM17.0071 12H13.9764V0H11.9559V12H8.92517L12.9661 16L17.0071 12Z"
+                        fill="black" />
+                </svg>
+                <b>Ordenar</b>
+            </div>
+        </div>
+        <div class="container-filters none">
+            <div class="options-order">
+                <b>Ordenar por:</b>
+                <div class="btn-order">
+                    <span class="option-selected">Nombre</span>
+                    <hr class="separator">
+                    <span>Precio</span>
+                </div>
+            </div>
+            <span>1, 500 resultados</span>
+            <div class="">
+                <span>Páginas: </span>
+                <div class="pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-products">
+        <div class="container"></div>
+    </section>
+
+    <div class="section-categories slide-out-left">
+        <div class="content-categories">
+            <aside></aside>
+        </div>
+        <div class="close-filter"></div>
+    </div>
+
+    <div class="section-order slide-out-right">
+        <div class="close-order"></div>
+        <div class="content-orders"></div>
+    </div>
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>
