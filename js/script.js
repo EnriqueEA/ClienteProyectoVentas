@@ -1,10 +1,10 @@
-/* jshint esversion: 10 */
+import log from './modules/main.js';
 
 function get(url) {
     fetch(url)
         .then(r => r.json())
         .then(r => {
-            // console.log(r);
+            // print(r);
             return r;
         })
         .then(r => {
@@ -59,6 +59,8 @@ function addEventsClick() {
         });
     });
 }
+
+log('Function from module...!');
 
 /* function changePage() {
     get("https://rickandmortyapi.com/api/character")
